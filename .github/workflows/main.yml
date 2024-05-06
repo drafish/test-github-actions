@@ -27,6 +27,7 @@ jobs:
       run: |
         git config --local user.email "xwlyy1991@163.com"
         git config --local user.name "drafish"
+        git pull
         git add transactions.json
         if git diff --quiet --cached; then
           echo 'No changes to commit'
