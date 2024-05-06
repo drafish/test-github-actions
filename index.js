@@ -17,6 +17,7 @@ async function getTransactionsByAccount(contractAddress, startBlockNumber, endBl
             });
         }
     }
+    console.log(JSON.stringify(transactions))
 
     return transactions;
 }
